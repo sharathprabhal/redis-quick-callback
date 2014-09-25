@@ -1,6 +1,8 @@
 redis-quick-callback
 ====================
 
+[![NPM](https://nodei.co/npm/redis-quick-callback.png)](https://nodei.co/npm/redis-quick-callback/)
+
 An enhancement to [mranney/node-redis](https://github.com/mranney/node_redis) that calls back immediately when no connection is present. When a connection is lost, `node-redis` client takes anywhere between 200ms to 2500ms to callback. One way around this to turn off `enable_offline_queue` and loose the awesome offline queuing functionality. This client calls back immediately and executes the command asynchronously.
 
 ## Usage

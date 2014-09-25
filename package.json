@@ -30,6 +30,6 @@
   "repository": {
   	"type": "git",
   	"url": "https://github.com/sharathprabhal/redis-quick-callback.git"
-  }
+  },
   "author": "Sharath Prabhal <sharathbose@gmail.com>"
 }
