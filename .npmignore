@@ -1,0 +1,7 @@
+npm-debug.log
+src
+test
+.git
+.DS_Store
+gulpfile.js
+dump.rdb

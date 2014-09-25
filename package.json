@@ -1,0 +1,31 @@
+{
+  "name": "redis-quick-callback",
+  "version": "0.0.1",
+  "description": "A redis client",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js coffee; ./node_modules/mocha/bin/mocha --reporter spec --colors"
+  },
+  "author": "Sharath Prabhal",
+  "keywords": [
+  	"redis",
+  	"callback",
+  	"fail fast"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "redis": "0.12.1"
+  },
+  "devDependencies": {
+    "coffee-script": "1.8.0",
+    "gulp": "3.8.8",
+    "gulp-util": "2.2.14",
+    "gulp-coffee": "1.2.4",
+    "gulp-coffeelint": "0.0.2",
+    "gulp-mocha": "0.2.0",
+    "mocha": "1.16.2",
+    "should": "2.0.1",
+    "async": "0.9.0"
+  },
+  "author": "Sharath Prabhal <sharathbose@gmail.com>"
+}
