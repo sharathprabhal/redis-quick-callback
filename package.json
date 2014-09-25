@@ -1,7 +1,7 @@
 {
   "name": "redis-quick-callback",
   "version": "0.0.1",
-  "description": "A redis client",
+  "description": "A redis client that callback immediately when no connection is present.",
   "main": "lib/index.js",
   "scripts": {
     "test": "./node_modules/gulp/bin/gulp.js coffee; ./node_modules/mocha/bin/mocha --reporter spec --colors"
@@ -27,5 +27,9 @@
     "should": "2.0.1",
     "async": "0.9.0"
   },
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/sharathprabhal/redis-quick-callback.git"
+  }
   "author": "Sharath Prabhal <sharathbose@gmail.com>"
 }
