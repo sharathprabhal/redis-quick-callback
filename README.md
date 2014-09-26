@@ -12,12 +12,12 @@ Create a new client using the same API as [mranney/node-redis](https://github.co
 var redis = require('redis-quick-callback');
 var client = redis.createClient();
 client.on('ready', function () {
-  // when no connection exists
+  // when no connection exists, err is returned immediately, the "set" is queued
   client.set('key', 'value', function (err) {
     console.log(err); // Err: No connection to server
   });
 
-  // redis connection is back
+  // when redis connection is back, the queued "set" is executed and the value is available
   client.get('key', function (err, data) {
     console.log(data); // 'value'
   });
