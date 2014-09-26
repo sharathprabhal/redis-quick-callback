@@ -1,6 +1,6 @@
 {
   "name": "redis-quick-callback",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A redis client that callback immediately when no connection is present.",
   "main": "lib/index.js",
   "scripts": {
